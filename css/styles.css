@@ -3,21 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+/* header */
+header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+
+}
+.container-title{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+/* Main */
+main{
+    background-color: red;
+}
 .container-grid {
-    width: 600px;
+    width: 800px;
     height: 500px;
     margin: 0 auto;
+    padding:70px 40px 0 40px;
+    pa
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
   }
   
   .cell {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 2px;
     border: 1px solid black;
     text-align: center;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 20px;
+  }
+  /* FOOTER */
+  .end{
+    padding-top: 20px;
+    font-size: 20px;
+   
   }
