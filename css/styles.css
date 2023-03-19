@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cell {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
